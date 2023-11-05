@@ -73,7 +73,7 @@ export default function Intro() {
 
                 <a
                     className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/poojan-patel2001"
                     target="_blank"
                 >
                     <BsLinkedin/>
@@ -81,7 +81,7 @@ export default function Intro() {
 
                 <a
                     className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
-                    href="https://github.com"
+                    href="https://github.com/Poojan-20"
                     target="_blank"
                 >
                     <FaGithubSquare />
