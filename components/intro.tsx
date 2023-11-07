@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare,FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Intro() {
     return (
@@ -47,7 +48,7 @@ export default function Intro() {
                 <span className="underline">React (Next.js)</span>.</motion.h1>
 
             <motion.div
-                className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
+                className="flex flex-col :flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
@@ -70,22 +71,30 @@ export default function Intro() {
                     Download Resume{" "}
                     <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
                 </a>
-
+                <div className='flex flex-row gap-3'>
                 <a
                     className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
                     href="https://www.linkedin.com/in/poojan-patel2001"
                     target="_blank"
                 >
-                    <BsLinkedin/>
+                    <BsLinkedin />
                 </a>
-
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
-                    href="https://github.com/Poojan-20"
-                    target="_blank"
-                >
-                    <FaGithubSquare />
+                        className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
+                        href="https://github.com/Poojan-20"
+                        target="_blank"
+                    >
+                        <FaGithubSquare />
                 </a>
+                <a
+                        className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
+                        href="https://twitter.com/Poojan_bahaha"
+                        target="_blank"
+                    >
+                        <FaSquareXTwitter />
+                </a>
+                </div>
+
             </motion.div>
         </section>
     )

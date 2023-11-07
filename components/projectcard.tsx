@@ -24,18 +24,18 @@ export default function ProjectCard({ title, description, tags, imageUrl }: Proj
       className='group mb-3 md:mb-8 last:mb-0'>
       <section className=' bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden md:pr-8 relative md:h-[20rem] hover:bg-gray-200 transition md:group-even:pl-8'
       >
-        <Image className='md:absolute relative bottom-60 top-2 md:block md:top-8 md:-right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition   
+        <Image className='relative rounded-3xl bottom-60 mb-4 top-2 md:top-8 md:-right-40 w-[28.25rem] shadow-2xl md:absolute transition   
 
 md:group-even:right-[initial] 
 md:group-even:-left-40
-group-hover:-translate-x-3 
-group-hover:translate-y-3 
-group-hover:-rotate-2 
+md:group-hover:-translate-x-3 
+md:group-hover:translate-y-3 
+md:group-hover:-rotate-2 
 
 group-hover:scale-[1.05]
-group-even:group-hover:translate-x-3 
-group-even:group-hover:translate-y-3 
-group-even:group-hover:rotate-2' src={imageUrl} alt={title} quality={95} />
+md:group-even:group-hover:translate-x-3 
+md:group-even:group-hover:translate-y-3 
+md:group-even:group-hover:rotate-2' src={imageUrl} alt={title} quality={95} />
         <div className='pt-4 pb-7 px-5 md:pl-10 md:pt-10 md:pr-2 md:max-w-[50%] flex flex-col h-full md:group-even:ml-[18rem]'>
           
           <h3 className='text-2xl font-semibold'>{title}</h3>
