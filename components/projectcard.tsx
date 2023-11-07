@@ -13,18 +13,31 @@ export default function ProjectCard({ title, description, tags, imageUrl }: Proj
     target: ref,
     offset: ['0 1', '1.33 1']
   })
-  const scaleprogress = useTransform(scrollYProgress,[0,1],[0.8,1]);
-  const opacityprogress = useTransform(scrollYProgress,[0,1],[0.6,1]);
+  const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
     <motion.div
       ref={ref} style={{
         scale: scaleprogress,
         opacity: opacityprogress,
       }}
-      className='group mb-3 sm:mb-8 last:mb-0'> 
-      <section className=' bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[25rem] hover:bg-gray-200 transition group-even:pl-8'
+      className='group mb-3 md:mb-8 last:mb-0'>
+      <section className=' bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden md:pr-8 relative md:h-[20rem] hover:bg-gray-200 transition md:group-even:pl-8'
       >
-        <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pt-10 sm:pr-2 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]'>
+        <Image className='md:absolute relative bottom-60 top-2 md:block md:top-8 md:-right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition   
+
+md:group-even:right-[initial] 
+md:group-even:-left-40
+group-hover:-translate-x-3 
+group-hover:translate-y-3 
+group-hover:-rotate-2 
+
+group-hover:scale-[1.05]
+group-even:group-hover:translate-x-3 
+group-even:group-hover:translate-y-3 
+group-even:group-hover:rotate-2' src={imageUrl} alt={title} quality={95} />
+        <div className='pt-4 pb-7 px-5 md:pl-10 md:pt-10 md:pr-2 md:max-w-[50%] flex flex-col h-full md:group-even:ml-[18rem]'>
+          
           <h3 className='text-2xl font-semibold'>{title}</h3>
           <p className='mt-2 leading-relaxed text-gray-700'>{description}</p>
           <ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto'>
@@ -33,10 +46,8 @@ export default function ProjectCard({ title, description, tags, imageUrl }: Proj
             ))}
           </ul></div>
 
-        <Image className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40
-     group-hover:translate-x-3 group-hover:translate-y-2 group-hover:-rotate-2 transition group-hover:scale-[1.05]
-     group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-2 group-even:group-hover:rotate-2' src={imageUrl} alt={title} quality={95} />
+
       </section>
-      </motion.div>
+    </motion.div>
   )
 }
