@@ -40,12 +40,11 @@ export default function Intro() {
             <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}>
-                <span className="font-bold">Hello, I&#39;m Poojan.</span> I&#39;m a{" "}
+                <span className="font-bold">Hello, I&#39;m Poojan.</span><br /> I&#39;m a{" "}
                 <span className="font-bold">full-stack developer</span><br />
                 <span className="font-bold"></span> I break
                 and make things with
-                <span className="italic"> javascript</span>. My focus is{" "}
-                <span className="underline">React (Next.js)</span>.</motion.h1>
+                <span className="italic"> javascript.</span></motion.h1>
 
             <motion.div
                 className="flex flex-col :flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
