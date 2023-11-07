@@ -2,7 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-
+import Foode from '@/public/Foode.png'
+import medjestic from '@/public/medjestic.png'
+import thewalls from '@/public/thewalls.png'
 
 export const links = [
   {
@@ -56,25 +58,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Thewalls",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    // imageUrl: corpcommentImg,
+      "The Walls app revolutionizes music discovery by dynamically generating personalized album walls using Spotify API data. With intuitive features like customizable backgrounds and easy social sharing.",
+    tags: ["React", "Next.js", "Firebase", "Tailwind", "SpotifyAPI"],
+    imageUrl: thewalls,
   },
   {
-    title: "rmtDev",
+    title: "Medjestic",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
+      "Medjectisc offers a secure telemedicine platform for doctors and patients, featuring AES-encrypted medical records and WebRTC video consultations with AES encryption and a built-in pharmacy.",
+    tags: ["React", "WebRTC", "Socket.io","firebase",'Node'],
+    imageUrl: medjestic,
   },
   {
-    title: "Word Analytics",
+    title: "FoodE",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: wordanalyticsImg,
+      "Foode redefines online grocery shopping with personalized recommendations, an intuitive cart system for effortless organization, and precise, transparent invoices for seamless transactions.",
+    tags: ["React", "MongoDB", "Node", "Express", "python"],
+    imageUrl: Foode,
   },
 ] as const;
 
@@ -88,13 +90,10 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
