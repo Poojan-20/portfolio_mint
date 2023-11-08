@@ -40,7 +40,7 @@ export default function Navbar() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-gray-200 rounded-full absolute inset-0 -z-10"
+                    className="bg-gray-200 rounded-full absolute h-8 -top-[0.625rem] bottom-0 left-0 right-0 -z-10 md:inset-0"
                     layoutId="activeSection"
                     transition={{ type: "spring", stiffness:380, damping: 30 }}
                   ></motion.span>
