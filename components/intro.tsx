@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pfpemoji.png"
+              src="/peep-46.png"
               alt="poojan potrait"
               width="200"
               height="200"

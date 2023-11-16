@@ -92,7 +92,6 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Redux",
-  "Apollo",
   "Express",
   "Python",
   "Django",
