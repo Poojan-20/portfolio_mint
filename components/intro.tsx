@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/peep-46.png"
+              src="/pfpemoji.png"
               alt="poojan potrait"
               width="200"
               height="200"
@@ -103,7 +103,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
+          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/70"
           href="https://drive.google.com/file/d/1VKgJG9yX0BRM0KaLQ7970IKs30azwJdK/view?usp=drive_link"
           target="__blank"
         >
@@ -112,21 +112,21 @@ export default function Intro() {
         </a>
         <div className="flex flex-row gap-3">
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://www.linkedin.com/in/poojan-patel2001"
             target="_blank"
           >
             <BsLinkedin />
           </a>
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://github.com/Poojan-20"
             target="_blank"
           >
             <FaGithubSquare />
           </a>
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer "
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://twitter.com/Poojan_bahaha"
             target="_blank"
           >
