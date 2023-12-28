@@ -33,7 +33,7 @@ export default function Intro() {
               src="/pfpemoji.png"
               alt="poojan potrait"
               width="200"
-              height="200"
+              height="250"
               quality="95"
               priority={true}
               className="h-30 w-30 rounded-3xl object-cover border-[0.05rem] border-white shadow-xl"
