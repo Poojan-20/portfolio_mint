@@ -15,10 +15,10 @@ export default function ProjectCard({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0 1", "1.33 1.2"],
   });
-  const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
+  const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   return (
     <motion.div
       ref={ref}
@@ -28,7 +28,7 @@ export default function ProjectCard({
       }}
       className="group mb-3 sm:mb-8 md:mb-8 last:mb-0"
     >
-      <section className=" bg-gray-100 max-w-[42rem] border ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className=" bg-gray-100 max-w-[42rem] mb-4 border ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 rounded-xl md:rounded-none">
         <Image
           className="relative rounded-xl top-[-9px] md:top-8 md:-right-40 w-[24.25rem] shadow-2xl md:absolute transition   
 
