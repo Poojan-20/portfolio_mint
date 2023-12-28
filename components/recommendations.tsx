@@ -95,14 +95,6 @@ export default function Recommendations() {
                 height={280}
               />
             </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center rounded-2xl">
-              <Image
-                src="/muchmore.png"
-                alt="poojan potrait"
-                width={280}
-                height={280}
-              />
-            </SwiperSlide>
           </Swiper>
         </div>
         <div className="flex flex-col mx-20">
@@ -162,22 +154,6 @@ export default function Recommendations() {
             <SwiperSlide className="flex items-center justify-center rounded-2xl">
               <Image
                 src="/theplaylist.jpg"
-                alt="poojan potrait"
-                width={280}
-                height={280}
-              />
-            </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center rounded-2xl">
-              <Image
-                src="/theplaylist.jpg"
-                alt="poojan potrait"
-                width={280}
-                height={280}
-              />
-            </SwiperSlide>
-            <SwiperSlide className="flex items-center justify-center rounded-2xl">
-              <Image
-                src="/muchmore.png"
                 alt="poojan potrait"
                 width={280}
                 height={280}

@@ -30,10 +30,10 @@ export default function ProjectCard({
     >
       <section className=" bg-gray-100 max-w-[42rem] mb-4 border ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 rounded-xl md:rounded-none">
         <Image
-          className="relative rounded-xl top-[-9px] md:top-8 md:-right-40 w-[24.25rem] shadow-2xl md:absolute transition   
+          className="relative rounded-xl top-[-9px] md:top-8 md:-right-[6rem] w-[24.25rem] shadow-2xl md:absolute transition   
 
 md:group-even:right-[initial] 
-md:group-even:-left-40
+md:group-even:-left-[6rem]
 md:group-hover:-translate-x-3 
 md:group-hover:translate-y-3 
 md:group-hover:-rotate-2 
