@@ -28,9 +28,9 @@ export default function ProjectCard({
       }}
       className="group mb-3 sm:mb-8 md:mb-8 last:mb-0"
     >
-      <section className=" bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className=" bg-gray-100 max-w-[42rem] border ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <Image
-          className="relative rounded-xl bottom-60 mb-4 top-2 md:top-8 md:-right-40 w-[28.25rem] shadow-2xl md:absolute transition   
+          className="relative rounded-xl top-[-9px] md:top-8 md:-right-40 w-[24.25rem] shadow-2xl md:absolute transition   
 
 md:group-even:right-[initial] 
 md:group-even:-left-40
