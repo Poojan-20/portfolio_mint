@@ -17,10 +17,10 @@ export default function About() {
             ref={ref}
         >
             <SectionHeading>About me</SectionHeading>
-            <p className='mb-3 text-justify'>
+            <p className='mb-3 text-center'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere itaque est quia reiciendis distinctio explicabo iure a asperiores, enim hic praesentium aspernatur obcaecati. Non iure possimus, quod veniam corporis porro.
             </p>
-            <p className='mb-3 text-justify'>
+            <p className='mb-3 text-center'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt aut sapiente cumque. Enim maxime illum odit! Neque odit natus provident iure, et quia tempora est omnis consectetur dicta perferendis veritatis atque possimus?
             </p>
         </motion.section>
