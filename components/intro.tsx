@@ -76,10 +76,21 @@ export default function Intro() {
               `"TechGeek"`,
               1000,
             ]}
-            speed={50}
-            style={{ fontSize: "1.875rem" }}
+            speed={65}
+            style={{ fontSize: "1.875rem", }}
             repeat={Infinity}
           />
+          <style global jsx>{`
+        .type::after {
+          content: '>';
+          animation: cursor 1.1s infinite step-start;
+        }
+        @keyframes cursor {
+          50% {
+            opacity: 0;
+          }
+        }
+      `}</style>
         </span>
         <br />
         <span className="font-bold"></span> I break and make things with

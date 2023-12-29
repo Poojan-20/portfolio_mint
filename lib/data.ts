@@ -29,32 +29,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
+
 
 export const projectsData = [
   {
@@ -63,6 +38,7 @@ export const projectsData = [
       "The Walls app revolutionizes music discovery by dynamically generating personalized album walls using Spotify API data. With intuitive features like customizable backgrounds and easy social sharing.",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "SpotifyAPI"],
     imageUrl: thewalls,
+    index: 1,
   },
   {
     title: "Medjestic",
@@ -70,6 +46,7 @@ export const projectsData = [
       "Medjectisc offers a secure telemedicine platform for doctors and patients, featuring AES-encrypted medical records and WebRTC video consultations with AES encryption and a built-in pharmacy.",
     tags: ["React", "WebRTC", "Socket.io","firebase",'Node'],
     imageUrl: medjestic,
+    index: 2,
   },
   {
     title: "FoodE",
@@ -77,6 +54,7 @@ export const projectsData = [
       "Foode redefines online grocery shopping with personalized recommendations, an intuitive cart system for effortless organization, and precise, transparent invoices for seamless transactions.",
     tags: ["React", "MongoDB", "Node", "Express", "python"],
     imageUrl: Foode,
+    index: 3,
   },
 ] as const;
 
