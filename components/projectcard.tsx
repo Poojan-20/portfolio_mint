@@ -19,14 +19,12 @@ export default function ProjectCard({
     offset: ["0 1", "1.33 1.2"],
   });
   const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
-  const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
 
   return (
     <motion.div
       ref={ref}
       style={{
         scale: scaleprogress,
-        opacity: opacityprogress,
         transition: "opacity 0.4s, transform 0.4s",
       }}
       className={`sticky top-[8.3rem] group mb-3 sm:mb-8 md:mb-8 last:mb-0 md:top-[9rem]`}
