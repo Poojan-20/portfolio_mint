@@ -12,6 +12,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+
   return (
     <section
       ref={ref}
@@ -51,7 +52,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            ✌️
+            👋
           </motion.span>
         </div>
       </div>
@@ -77,20 +78,20 @@ export default function Intro() {
               1000,
             ]}
             speed={65}
-            style={{ fontSize: "1.875rem", }}
+            style={{ fontSize: "1.875rem" }}
             repeat={Infinity}
           />
           <style global jsx>{`
-        .type::after {
-          content: '>';
-          animation: cursor 1.1s infinite step-start;
-        }
-        @keyframes cursor {
-          50% {
-            opacity: 0;
-          }
-        }
-      `}</style>
+            .type::after {
+              content: ">";
+              animation: cursor 1.1s infinite step-start;
+            }
+            @keyframes cursor {
+              50% {
+                opacity: 0;
+              }
+            }
+          `}</style>
         </span>
         <br />
         <span className="font-bold"></span> I break and make things with
@@ -106,7 +107,8 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=poojanp2008@gmail.com"
+          target="_blank"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
           Contact me here{" "}

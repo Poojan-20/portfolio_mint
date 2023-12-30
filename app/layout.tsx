@@ -1,12 +1,12 @@
 import Navbar from "@/components/navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import Providers from "./providers";
 import ThemeSwitcher from "@/components/Theme-switcher";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Poojan Patel | Portfolio",
