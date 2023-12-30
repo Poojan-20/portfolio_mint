@@ -1,7 +1,4 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+
 import Foode from '@/public/Foode.png'
 import medjestic from '@/public/medjestic.png'
 import thewalls from '@/public/thewalls.png'
@@ -38,7 +35,7 @@ export const projectsData = [
       "The Walls app revolutionizes music discovery by dynamically generating personalized album walls using Spotify API data. With intuitive features like customizable backgrounds and easy social sharing.",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "SpotifyAPI"],
     imageUrl: thewalls,
-    status:'😎 Maintained',
+    status:'🛠️ Maintained',
     githublink: 'https://github.com/Poojan-20/thewalls',
     previewlink:'https://thewalls.vercel.app/',
   },
@@ -48,7 +45,7 @@ export const projectsData = [
       "Medjectisc offers a secure telemedicine platform for doctors and patients, featuring AES-encrypted medical records and WebRTC video consultations with AES encryption and a built-in pharmacy.",
     tags: ["React", "WebRTC", "Socket.io","firebase",'Node'],
     imageUrl: medjestic,
-    status:'🔧 Not maintained',
+    status:'🏗️ Not maintained',
     githublink: 'https://github.com/Poojan-20/ehealthcare-frontend',
     previewlink:'https://medjestic.netlify.app/',
   },
@@ -58,7 +55,7 @@ export const projectsData = [
       "Foode redefines online grocery shopping with personalized recommendations, an intuitive cart system for effortless organization, and precise, transparent invoices for seamless transactions.",
     tags: ["React", "MongoDB", "Node", "Express", "python"],
     imageUrl: Foode,
-    status:'🔧 Not maintained',
+    status:'🏗️ Not maintained',
     githublink: '',
     previewlink:'',
   },
