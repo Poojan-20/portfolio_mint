@@ -30,7 +30,8 @@ export default function ProjectCard({
       style={{
         scale: scaleprogress,
         transition: "opacity 0.4s, transform 0.4s",
-        transform: 'translate3d(0,0,0)'  
+        transform: 'translate3d(0,0,0)',  
+        willChange: 'transform',
       }}
       className={`sticky top-[8.3rem] group mb-3 sm:mb-8 md:mb-8 last:mb-0 md:top-[9rem]`}
     >

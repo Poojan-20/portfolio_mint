@@ -62,9 +62,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&#39;m Poojan.</span>
+        <span className="font-semibold">Hello, I&#39;m Poojan.</span>
         <br /> I&#39;m a{" "}
-        <span className="font-bold">
+        <span className="font-semibold">
           <TypeAnimation
             className="type"
             preRenderFirstString={true}
@@ -94,7 +94,7 @@ export default function Intro() {
           `}</style>
         </span>
         <br />
-        <span className="font-bold"></span> I break and make things with
+        <span className="font-normal"></span> I break and make things with
         <span className="italic"> javascript.</span>
       </motion.h1>
 
