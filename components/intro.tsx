@@ -19,25 +19,27 @@ export default function Intro() {
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       id="home"
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center ">
         <div className="relative">
           <motion.div
+          className="rounded-3xl shadow-[12px_12px_0px_rgba(0,0,0,1)]"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1, rotate: 360 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: "tween",
+              type: 'tween',
               duration: 0.4,
               velocity: 100,
             }}
           >
-            <Image
-              src="/pfpemoji.png"
+            
+              <Image
+              src="/peeps.png"
               alt="poojan potrait"
               width="200"
               height="250"
               quality="95"
               priority={true}
-              className="h-30 w-30 rounded-3xl object-cover border-[0.05rem] border-white shadow-xl"
+              className="block h-30 w-30 rounded-3xl border-white border-[0.2rem] object-cover shadow-xl"
             />
           </motion.div>
 
@@ -57,6 +59,34 @@ export default function Intro() {
         </div>
       </div>
 
+{/* <div className="w-80 h-full border-black border-2 rounded-md shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white">
+   <a href="" className="block cursor-pointer">
+      <article className="w-full h-full">
+         <figure className="w-full h-1/2 border-black border-b-2">
+            <img
+               src="https://neo-brutalism-ui-library.vercel.app/assets/neo-brutalism-image3-6c6a875b.jpg"
+               alt="thumbnail"
+               className="w-full h-full object-cover"
+               />
+         </figure>
+         <div className="px-6 py-5 text-left h-full">
+            <p className="text-base mb-4">May 15th, 2023</p>
+            <h1 className="text-[32px] mb-4">Neo Brutallism</h1>
+            <p className="text-xs mb-4 line-clamp-4">
+               Neobrutalism is an aesthetic characterized by high contrast
+               elements, bright colors, and bold shapes. It is often used to make
+               a statement, as it is meant to be eye-catching and stand out to
+               the viewer. It is also used in user interface and web design, with
+               features such as vibrant colors and bold shapes. Neobrutalism can
+               also be used in print design, with an example being a bold shape
+               with a vibrant color fill applied to it.
+            </p>
+            <strong>Read More</strong>
+         </div>
+      </article>
+   </a>
+</div> */}
+        
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
