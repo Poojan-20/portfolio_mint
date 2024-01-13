@@ -22,7 +22,7 @@ export default function Intro() {
       <div className="flex items-center justify-center ">
         <div className="relative">
           <motion.div
-          className="rounded-3xl shadow-[12px_12px_0px_rgba(0,0,0,1)]"
+          className="rounded-3xl shadow-[12px_12px_0px_rgba(0,0,0,1)] dark:shadow-[12px_12px_0px_rgba(255,255,255,1)]"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{

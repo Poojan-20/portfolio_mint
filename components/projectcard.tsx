@@ -35,7 +35,7 @@ export default function ProjectCard({
       }}
       className={`sticky top-[8.3rem] group mb-3 sm:mb-8 md:mb-8 last:mb-0 md:top-[9rem] `}
     >
-      <section className="bg-gray-100 max-w-[42rem]  mb-4 border-[0.05rem] ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-500 rounded-2xl shadow-[17px_17px_0px_rgba(0,0,0,1)] dark:border-white border-black">
+      <section className="bg-gray-100 max-w-[42rem]  mb-4 border-[0.05rem] ml-4 border-black/5 md:overflow-hidden sm:pr-8 md:pr-8 relative md:h-[25rem] hover:bg-gray-200 transition md:group-even:pl-8 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-500 rounded-2xl shadow-[17px_17px_0px_rgba(0,0,0,1)] dark:shadow-[17px_17px_0px_rgba(255,255,255,1)] dark:border-white border-black">
         <Image
           className="relative rounded-xl top-[-9px] md:top-8 md:-right-[6rem] w-[24.25rem] shadow-2xl md:absolute transition   
           md:group-even:right-[initial] 
