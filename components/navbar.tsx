@@ -28,9 +28,9 @@ export default function Navbar() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-2 py-3 text-xs font-extrabold md:text-sm md:font-medium hover:text-gray-950 transition dark:text-gray-500 dark:text-grey-300",
+                  "flex w-full items-center justify-center px-2 py-3 text-xs font-extrabold md:text-sm md:font-medium hover:text-gray-950 transition dark:text-gray-400",
                   {
-                    "text-gray-950 dark:text-gray-200": activeSection === link.name,
+                    "text-gray-950 dark:text-gray-100": activeSection === link.name,
                   }
                 )}
                 href={link.hash}
@@ -40,7 +40,7 @@ export default function Navbar() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-gray-200 rounded-full absolute h-8 -top-[0.625rem] bottom-0 left-0 right-0 -z-10 md:inset-0 dark:bg-zinc-900"
+                    className="bg-gray-200 rounded-full absolute h-8 -top-[0.625rem] bottom-0 left-0 right-0 -z-10 md:inset-0 dark:bg-zinc-700"
                     layoutId="activeSection"
                     transition={{ type: "spring", stiffness:380, damping: 30 }}
                   ></motion.span>

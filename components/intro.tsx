@@ -139,15 +139,15 @@ export default function Intro() {
         <Link
           href="https://mail.google.com/mail/?view=cm&fs=1&to=poojanp2008@gmail.com"
           target="_blank"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-white dark:bg-white/10 dark:text-white  text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition shadow-[4px_4px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_rgba(255,255,255,1)] dark:border-white border-black"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
-          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/70"
-          href="https://drive.google.com/file/d/1VKgJG9yX0BRM0KaLQ7970IKs30azwJdK/view?usp=drive_link"
+          className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer border  dark:bg-white/10 dark:text-gray-100 shadow-[4px_4px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_rgba(255,255,255,1)] dark:border-white border-black"
+          href="https://drive.google.com/file/d/1B2op2vq-TTfEqSdP9upMQ0lUzPogn_sY/view?usp=sharing"
           target="__blank"
         >
           Download Resume{" "}
@@ -155,21 +155,22 @@ export default function Intro() {
         </a>
         <div className="flex flex-row gap-3">
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-gray-100
+            shadow-[3px_3px_0px_rgba(0,0,0,1)] dark:shadow-[2px_2px_0px_rgba(255,255,255,1)] dark:border-white border-black"
             href="https://www.linkedin.com/in/poojan-patel2001"
             target="_blank"
           >
             <BsLinkedin />
           </a>
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-gray-100 shadow-[3px_3px_0px_rgba(0,0,0,1)] dark:shadow-[2px_2px_0px_rgba(255,255,255,1)] dark:border-white border-black"
             href="https://github.com/Poojan-20"
             target="_blank"
           >
             <FaGithubSquare />
           </a>
           <a
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/70"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] border  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-gray-100 shadow-[3px_3px_0px_rgba(0,0,0,1)] dark:shadow-[2px_2px_0px_rgba(255,255,255,1)] dark:border-white border-black"
             href="https://twitter.com/Poojan_bahaha"
             target="_blank"
           >
