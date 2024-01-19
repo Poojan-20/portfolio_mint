@@ -58,7 +58,7 @@ export default function ProjectCard({
               <BsLink45Deg className="h-5 w-5" />
             </Link>
           </div>
-          <p className="project-status-content-wrapper my-2 text-xs rounded px-2 py-2 bg-black/[0.7] text-white w-fit hover:bg-zinc-800 dark:hover:bg-slate-600">
+          <p className="project-status-content-wrapper my-2 text-xs rounded-2xl px-2 py-2 bg-black/[0.7] text-white w-fit hover:bg-zinc-800 dark:hover:bg-slate-600 shadow-[3px_3px_0px_rgba(0,0,0,1)] dark:shadow-[2px_2px_0px_rgba(255,255,255,1)]">
             {status}
           </p>
           <p className="mt-2 leading-relaxed text-gray-700 text-ellipsis dark:text-white/70">
@@ -67,7 +67,7 @@ export default function ProjectCard({
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70 shadow-[3px_3px_0px_rgba(0,0,0,1)] dark:shadow-[2px_2px_0px_rgba(255,255,255,1)]"
                 key={index}
               >
                 {tag}
