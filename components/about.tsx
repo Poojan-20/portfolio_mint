@@ -19,14 +19,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-center">
         An avid developer navigating the tech waves at Jio Private Limited. By
-        day, I'm crafting and delivering tech wonders, infusing creativity into
+        day, I&#39;m crafting and delivering tech wonders, infusing creativity into
         projects that push boundaries.
       </p>
       <p className="mb-3 text-center">
-        But when it's time to unwind, gaming is my brain fuzz remedy. Armed with
+        But when it&#39;s time to unwind, gaming is my brain fuzz remedy. Armed with
         Valorant, a keyboard, and a cup of coffee are my power ups, always one
         respawn away. I am always on the lookout for new music artists.I am not
-        just building projects but I am basically a tech storyteller.Let's connect !!
+        just building projects but I am basically a tech storyteller.Let&#39;s connect !!
       </p>
     </motion.section>
   );
