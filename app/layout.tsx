@@ -23,8 +23,8 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 pt-28 sm:pt-36 dark:bg-[#121212] dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div style={{ transform: 'translate3d(0,0,0)' }} className="bg-[#e8b1b2] absolute top-[7rem] -z-10 right-[1rem] h-[61.25rem] w-[61.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#f3896e] "></div>
-        <div style={{ transform: 'translate3d(0,0,0)' }}  className="bg-[#a9a0e6] absolute top-[54rem] -z-10 left-[-36rem] h-[61.25rem] w-[61rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] md:top-[-1rem] md:h-[31.25rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#f9cb75]"></div>
+        <div style={{ transform: 'translate3d(0,0,0)' }} className="bg-[#12CFF3] absolute top-[7rem] -z-10 right-[1rem] h-[61.25rem] w-[61.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] ] dark:bg-[#B9B4C7]"></div>
+        <div style={{ transform: 'translate3d(0,0,0)' }}  className="bg-[#5AB2F7] absolute top-[54rem] -z-10 left-[-36rem] h-[61.25rem] w-[61rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] md:top-[-1rem] md:h-[31.25rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]  dark:bg-[#352F44]"></div>
         <Providers>
           <ActiveSectionContextProvider>
             <Navbar />
